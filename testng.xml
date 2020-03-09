@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test name="MemberLookup_Search_VerifyMemberDetailsFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.SearchMemberLookUpAndVerifyMemberDetails_TestRunner"/>
+    </classes>
+  </test> 
+  <test name="MemberLookup_BenefitsEligibility_Verify_CallNotesFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpBenefitsAndEligibilityCallNotes_TestRunner"/>
+    </classes>
+  </test> 
+  <test name="MemberLookup_BenefitsEligibility_Verify_BAndEDetailFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpBenefitsAndEligibilityDetail_TestRunner"/>
+    </classes>
+  </test> 
+  <test name="MemberLookup_BenefitsEligibility_Verify_CoverageAndCopayFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpBenefitsAndEligibilityCoverageAndCopay_TestRunner"/>
+    </classes>
+  </test>     
+  <test name="MemberLookup_BenefitsEligibility_Verify_DeduductibleAndAccumulatorsFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpBenefitsAndEligibilityDeductibleAndAccumulator_TestRunner"/>
+    </classes>
+  </test> 
+  <test name="MemberLookup_BenefitsEligibility_Verify_PartDFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpBenefitsAndEligibilityPartD_TestRunner"/>
+    </classes>
+  </test>  
+  <test name="MemberLookup_BenefitsEligibility_Verify_DualCoverageFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpBenefitsAndEligibilityDualCoverage_TestRunner"/>
+    </classes>
+  </test> 
+  <test name="MemberLookup_Claim_Verify_ClaimHistoryFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimClaimHistory_TestRunner"/>
+    </classes>
+  </test> 
+  <test name="MemberLookup_Claim_Verify_ClaimDetailFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimClaimDetails_TestRunner"/>
+    </classes>
+  </test>   
+  <test name="MemberLookup_Claim_Verify_ContextualHelpFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimContextualHelp_TestRunner"/>
+    </classes>
+  </test>   
+    <test name="MemberLookup_Claim_Verify_TransferRulesCCInformationFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimTransferRulesCCInformation_TestRunner"/>
+    </classes>
+  </test>   
+    <test name="MemberLookup_Claim_Verify_ErrorsAndMessagesFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimErrorsAndMessages_TestRunner"/>
+    </classes>
+  </test>   
+    <test name="MemberLookup_Claim_Verify_DrugUtilizationReiewResponseDetailsFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimDrugUtilizationReiewResponseDetails_TestRunner"/>
+    </classes>
+  </test>   
+    <test name="MemberLookup_Claim_Verify_PricingFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimPricing_TestRunner"/>
+    </classes>
+  </test>   
+    <test name="MemberLookup_Claim_Verify_BenefitsFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimBenefits_TestRunner"/>
+    </classes>
+  </test>   
+    <test name="MemberLookup_Claim_Verify_DrugInformationFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimDrugInformation_TestRunner"/>
+    </classes>
+  </test>   
+    <test name="MemberLookup_Claim_Verify_AdditionalInformationFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimAdditionalInformation_TestRunner"/>
+    </classes>
+  </test>   
+    <test name="MemberLookup_Claim_Verify_ClaimRawDataFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimClaimRawData_TestRunner"/>
+    </classes>
+  </test>   
+    <test name="MemberLookup_Claim_Verify_MedicarePartDFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimMedicarePartD_TestRunner"/>
+    </classes>
+  </test>   
+    <test name="MemberLookup_Claim_Verify_CompoundFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimCompound_TestRunner"/>
+    </classes>
+  </test>   
+    <test name="MemberLookup_Claim_Verify_CallNotesFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpClaimCallNotes_TestRunner"/>
+    </classes>
+  </test>   
+  <test name="MemberLookup_Formulary_Verify_CallNotesFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpFormularyCallNotes_TestRunner"/>
+    </classes>
+  </test> 
+  <test name="MemberLookup_Formulary_Verify_DrugResultsFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpFormularyDrugResults_TestRunner"/>
+    </classes>
+  </test> 
+  <test name="MemberLookup_Formulary_Verify_GeneralInformationFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpFormularyGeneralInformation_TestRunner"/>
+    </classes>
+  </test> 
+  <test name="MemberLookup_Formulary_Verify_MinMaxDoseFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpFormularyMinMaxDose_TestRunner"/>
+    </classes>
+  </test>    
+  <test name="MemberLookup_Authorization_Verify_CallNotesFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpAuthorizationCallNotes_TestRunner"/>
+    </classes>
+  </test>   
+  <test name="MemberLookup_Authorization_Verify_AuthResultsFeature">
+   <classes>
+     <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpAuthResults_TestRunner"/>
+   </classes>
+ </test> 
+ <test name="MemberLookup_Authorization_Verify_GeneralInformationFeature">
+   <classes>
+     <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpAuthorizationGeneralInformation_TestRunner"/>
+   </classes>
+ </test>  
+ <test name="MemberLookup_Authorization_Verify_NotesAndHistoryFeature">
+   <classes>
+     <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpAuthorizationNotesAndHistory_TestRunner"/>
+   </classes>
+ </test> 
+ <test name="MemberLookup_Reimbursement_Verify_CallNotesFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpReimbursementCallNotes_TestRunner"/>
+    </classes>
+ </test>  
+ <test name="MemberLookup_Reimbursement_Verify_ReimbursementResultsFeature">
+   <classes>
+     <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpReimbursementResults_TestRunner"/>
+   </classes>
+ </test> 
+ <test name="MemberLookup_CallNotes_Verify_CallNotesFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpCallNotes_TestRunner"/>
+    </classes>
+ </test> 
+ <test name="MemberLookup_Pharmacy_Verify_CallNotesFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpPharmacyCallNotes_TestRunner"/>
+    </classes>
+  </test> 
+  <test name="MemberLookup_Pharmacy_Verify_PharmacyResultsFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpPharmacyResults_TestRunner"/>
+    </classes>
+  </test> 
+    <test name="VerifyMemberLookup_APS9554_Lock_InFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookup_APS9554_Lock_In_TestRunner"/>
+    </classes>
+  </test> 
+    <test name="MemberLookup_APS19302_Verify_AuthFeature">
+    <classes>
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.VerifyMemberLookUpAPS19302Auth_TestRunner"/>
+    </classes>
+  </test> 
+    <test name="APS14487_MemberLookup_Verify_CoverageFeature"> 
+    <classes> 
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.APS14487_MemberLookup_VerifyCoverage_TestRunner"/>
+    </classes> 
+  </test>  
+    <test name="APS18449_MemberLookup_Verify_CoverageFeature">
+  	<classes> 
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.APS18449_MemberLookup_VerifyCoverage_TestRunner"/>
+    </classes>
+  </test>
+  <test name="APS11733_PharmacyLookup_VerifyPosTransactionDataErrorsFeature">
+  	<classes> 
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.APS11733_PharmacyLookup_VerifyPosTransactionDataErrors_TestRunner"/>
+    </classes>
+   </test>
+     <test name="APS14656_VerifyClaimDetailsScreenFeature">
+  	<classes> 
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.APS14656_VerifyClaimDetailsScreen_TestRunner"/>
+    </classes>
+  </test>
+  <test name="APS18541_MemberLookup_Verify_BenefitsEligibility_DetailFeature">
+  	<classes> 
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.APS18541_MemberLookup_Verify_BenefitsEligibility_Detail_TestRunner"/>
+    </classes>
+  </test>    
+  <test name="APS33512_MemberLookup_Verify_BenefitsEligibility_MedicalBenefitFeature">
+  	<classes> 
+      <class name="DSTPS.Automation.HybridDesktop.MemberLookupAutomation.runners.APS33512_MemberLookup_Verify_BenefitsEligibility_MedicalBenefit_TestRunner"/>
+    </classes>
+  </test>               
+</suite>
